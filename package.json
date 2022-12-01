@@ -1,18 +1,26 @@
 {
-  "name": "deyu-function",
-  "version": "1.0.2",
+  "name": "deyu-utils",
+  "version": "1.0.0",
   "description": "JavaScript工具函数库",
   "module": "dist/index.js",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "webpack",
+    "build:watch": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coderQls/deyu-function.git"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "utils",
+    "function"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
